@@ -1,13 +1,14 @@
 .header-container {
   display: flex;
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   flex-direction: row;
   position: fixed;
+  top: 0;
   height: 100px;
   width: 100%;
 }
 
-.logo-cointainer {
+.logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +16,7 @@
   width: 20%;
 }
 
-.search-cointainer {
+.search-container {
   display: flex;
   justify-content: center;
   align-items: center;
